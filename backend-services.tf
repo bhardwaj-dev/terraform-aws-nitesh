@@ -1,5 +1,4 @@
 resource "aws_db_subnet_group" "nitesh-rds-subgroup" {
-  depends_on = [aws_elastic_beanstalk_application.nitesh-prod]
   subnet_ids = module.vpc.private_subnets
   name       = "main"
   tags = {

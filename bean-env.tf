@@ -2,7 +2,7 @@ resource "aws_elastic_beanstalk_environment" "nitesh-bean-prod-env" {
   application         = aws_elastic_beanstalk_application.nitesh-prod.name
   name                = "nitesh-bean-prod-env"
   solution_stack_name = "64bit Amazon Linux 2 v4.3.1 running Tomcat 8.5 Corretto 11"
-  cname_prefix        = "nitesh-bean-prod-domain"
+  cname_prefix        = "nitesh-bean-prod-domain123x"
   setting {
     name      = "VPCId"
     namespace = "aws:ec2:vpc"
