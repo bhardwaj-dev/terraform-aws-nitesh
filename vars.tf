@@ -33,7 +33,7 @@ variable "myIP" {
   default = "110.235.233.138/32"
 }
 
-variable "rmuser" {
+variable "rmquser" {
   default = "rabbit"
 }
 
